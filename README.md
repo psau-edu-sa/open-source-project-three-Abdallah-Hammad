@@ -1,2 +1,2 @@
-# About 
-A static website for an imaginary restaurant that I made for a web applications course.
+# About
+A notebook file made on Kaggle that shows a CNN pretrained model classifying a dataset called FLower102.
