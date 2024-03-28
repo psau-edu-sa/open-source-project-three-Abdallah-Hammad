@@ -1,0 +1,124 @@
+/* Abdallah Osama Hammad - 442052035 */
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    /* background-color: #EE4569; */
+    z-index: 2;
+    background-color: #EE4569;
+}
+
+#container {
+    border-radius: 15px;
+    margin: 5%;
+    background-color: #F2DAC1;
+    padding: 5% 10%;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #F2DAC1;
+    border-radius: 15px;
+    margin: 5%;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-weight: light;
+    margin: 10px;
+}
+
+#navbar a:hover {
+    color: #EE4569;
+}
+
+#navbar img {
+    float: left;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2e8dd;
+}
+
+table td,
+table th {
+    border: 1px solid rgba(0, 0, 0, 0.623);
+    padding: 12px;
+}
+
+table td:hover {
+    background-color: #F2DAC1;
+}
+
+select {
+    background-color: #f2e8dd;
+    width: 50px;
+}
+
+input {
+    width: 200px;
+    background-color: #f2e8dd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input:hover,
+input:focus,
+textarea:hover{
+    border: 2px solid #EE4569;
+}
+
+.button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f2e8dd;
+    color: black;
+    border: 2px solid #EE4569;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #EE4569;
+    color: #f2e8dd;
+}
+
+#email, .first {
+    text-decoration: none;
+    color: black;
+}
+
+#email:hover, #link:hover, .first:hover {
+    color: #EE4569;
+    cursor: pointer;
+}
+
+textarea {
+    border: 2px solid black;
+    border-radius: 20px;
+    resize: none;
+    background-color: #f2e8dd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: circle;
+}

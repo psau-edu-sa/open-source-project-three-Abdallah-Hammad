@@ -1,0 +1,56 @@
+<!--Abdallah Osama Hammad - 442052035-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="photos/logo_cut.png">
+    <title>Italiano Reservstions</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <img src="photos/logo_cut.png" width="179.5" height="72.25">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="#">Reservstions</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div id="container">
+        <h1 align="center">Reservstions</h1>
+        <p>
+            Italiano is open 7 days a week from 8 - 12am for breakfast, and from 4 - 12pm for lunch and dinner.<br><br>
+            To reserve a seat you can fill out the following form.<br><br>
+        <form>
+            <h3>Form:</h3>
+            Choose Number of Guests (Max 6):
+            <select name="guests">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select><br><br>
+            Choose Date and Time of Reservstion:
+            <input type="datetime-local" name="r_date"><br><br>
+            Enter Name to Use For Reservstion:
+            <input type="text" name="name"><br><br>
+            Enter Phone Number for Contact:
+            <input type="text" name="phone"><br><br>
+            <center>
+                <input type="reset" value="Reset Form" class="button">
+                <input type="submit" value="Submit Form" class="button" onclick="sub()">
+            </center>
+
+        </form>
+        </p>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
